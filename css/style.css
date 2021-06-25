@@ -188,10 +188,10 @@ p {
 }
 
 #informasi .informasi .fa {
-  border: 1px solid #999caa;
-  border-radius: 2px;
+  /* border: 1px solid #999caa; */
+  /* border-radius: 2px; */
   color: #999caa;
-  font-size: 24px;
+  font-size: 40px;
   width: 60px;
   height: 60px;
   line-height: 60px;
@@ -245,19 +245,29 @@ p {
 
 /* tentang */
 
-#tentang {
-  margin-top: 50px;
-  padding: 50px;
-  background-color: #f6faff;
+#tentang .main-content {
+  padding-top: 40px;
 }
 
-#tentang .tentang-img img {
-  width: 100%;
+#tentang .main-content .content-right .content-inner h4 {
+  font-weight: 700;
+  padding-bottom: 10px;
+  font-size: 2rem;
 }
 
-#tentang .section-header span {
+#tentang .text-center {
+  padding-top: 40px;
+}
+
+#tentang .text-center h3 {
+  padding-top: 2rem;
+  color: rgb(129, 129, 129);
+  font-style: italic;
+}
+
+#tentang span {
   --color: #be9e21;
-  --position: left bottom;
+  --position: center bottom;
   --width: 50px;
   --height: 5px;
   background: linear-gradient(var(--color), var(--color)) var(--position) /
@@ -266,7 +276,24 @@ p {
   font: bold 30px sans-serif;
 }
 
-#tentang .desc {
+#tentang .content-left .content-image img {
+  width: 100%;
+  height: auto;
+}
+
+#tentang .content-right .content-inner li {
+  display: block;
+  color: #444;
+  padding: 5px 0;
+}
+
+#tentang .content-right .content-inner li i {
+  color: #be9e21;
+  padding-right: 10px;
+  font-size: 12px;
+}
+
+/* #tentang .desc {
   margin-top: 30px;
   margin-bottom: 50px;
 }
@@ -296,7 +323,7 @@ p {
   color: #fff;
   background: #5da2f1;
   border-color: #4489d9;
-}
+} */
 
 /* end tentang */
 
