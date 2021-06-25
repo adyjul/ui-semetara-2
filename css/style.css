@@ -179,8 +179,8 @@ p {
 } */
 
 .row-space-1 > [class*="col-"] {
-  padding-left: 2px;
-  padding-right: 2px;
+  padding-left: 1px;
+  padding-right: 1px;
 }
 
 #informasi .margin-b-2 {
@@ -198,6 +198,29 @@ p {
   text-align: center;
   margin-bottom: 20px;
   margin-right: 20px;
+}
+
+#informasi .informasi:hover .informasi-info p {
+  cursor: pointer;
+  transition: all;
+  transform: translateX(200);
+}
+
+.btn-theme:hover,
+.service .service-element,
+.service .service-info,
+.service:hover .service-element,
+.service:hover .service-info {
+  transition-duration: 0.3s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.service .service-element,
+.service .service-info {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 #informasi .informasi {
