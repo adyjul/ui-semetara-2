@@ -244,6 +244,9 @@ p {
 /* end informasi */
 
 /* tentang */
+#tentang {
+  padding-bottom: 2rem;
+}
 
 #tentang .text-center h4 {
   font-weight: 700;
@@ -346,7 +349,6 @@ p {
 /* berita */
 
 #berita {
-  background-color: #fafafa;
   padding-top: 20px;
   padding-bottom: 60px;
   margin-top: 30px;
@@ -465,7 +467,7 @@ p {
 }
 
 #berita .single-berita-img img {
-  width: 40%;
+  width: 100%;
 }
 
 /* end berita */
@@ -474,6 +476,7 @@ p {
 
 #kegiatan {
   padding-top: 50px;
+  background-color: #fafafa;
 }
 #kegiatan .menu .menu-item-top h4 {
   font-weight: 700;
