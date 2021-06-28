@@ -84,24 +84,14 @@
   });
 
   // Window Resize Mobile Menu Fix
-  mobileNav();
+  
 
   // Scroll animation init
-  window.sr = new scrollReveal();
+  
 
   // Window Resize Mobile Menu Fix
-  $(window).on("resize", function () {
-    mobileNav();
-  });
+ 
 
   // Window Resize Mobile Menu Fix
-  function mobileNav() {
-    var width = $(window).width();
-    $(".submenu").on("click", function () {
-      if (width < 767) {
-        $(".submenu ul").removeClass("active");
-        $(this).find("ul").toggleClass("active");
-      }
-    });
-  }
+  
 })(window.jQuery);
