@@ -613,7 +613,7 @@ p {
 
 /* hubungi */
 #hubungi .judul span {
-  --color: #4489d9;
+  --color: #be9e21;
   --position: center bottom;
   --width: 50px;
   --height: 5px;
@@ -680,7 +680,7 @@ p {
 
 #footer {
   padding: 25px 0px;
-  background-color: #4489d9;
+  background-color: #be9e21;
 }
 
 #footer p {
