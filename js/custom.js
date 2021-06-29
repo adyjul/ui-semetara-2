@@ -1,11 +1,11 @@
 (function ($) {
   "use strict";
 
-  if ($(".carousel-item .active")) {
-    console.log("hai");
-  } else if ($(".carousel-item")) {
-    console.log("kk");
-  }
+  // if ($(".carousel-item .active")) {
+  //   console.log("hai");
+  // } else if ($(".carousel-item")) {
+  //   console.log("kk");
+  // }
 
   // $('.scroll-to-section').on('click',function(e){
   // 	var tujuan = $this.attr('href');
@@ -33,8 +33,7 @@
     var header = $(".navbar").height();
 
     if (scroll >= box - header) {
-      $(".navbar").addClass("fixed-top");
-      console.log("hai");
+      $(".navbar").addClass("fixed-top");      
     } else {
       $(".navbar").removeClass("fixed-top");
     }
