@@ -15,6 +15,18 @@
   // 	},1000,'easeInOutExpo')
   // })
 
+  var elementWindow = $(document).width();
+  if (979 >= elementWindow) {
+    $(".modal-dialog").css("height","70%");    
+  } 
+  $(window).resize(function () {
+    // console.log($(document).width())
+    var element = $(document).width();
+    if (979 >= element) {
+      $(".modal-dialog").css("height","70%");  
+    } 
+  });
+
   var scrollLink = $(".scroll-to-section");
   scrollLink.click(function (e) {
     e.preventDefault();
